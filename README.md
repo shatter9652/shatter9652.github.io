@@ -1,5 +1,6 @@
 <!-- Title Section -->
 # 🚀 **My Personal Bio**
+**BEST VIEWED ON A PC/LAPTOP**
 
 > **Description**: Bio Made For My HackTime Project and For My Discord!  
 
@@ -11,7 +12,8 @@
 2. [Features](#features)  
 3. [Installation](#installation)
 4. [Contact](#contact)   
-5. [Screenshots](#screenshots)  
+5. [Screenshots](#screenshots)
+6. [To-Do](#to-do)  
 
 
 ---
@@ -47,7 +49,12 @@ If I get enough doubloons/votes i'll consider making another website to do this 
 
 ---
 
-## 📷 **Screenshots** 
-- ![image](https://github.com/user-attachments/assets/d323f1ae-5312-4fca-b6bb-6f0f4c638d9b)
-- ![image](https://github.com/user-attachments/assets/5c4bf72a-b5b2-4795-b21f-c3e624246725)
+## 📙  **To-Do**
+- Create A Background Image/Video
+- Create Background Music/Player  
 
+---
+
+## 📷 **Screenshots** 
+![image](https://github.com/user-attachments/assets/d323f1ae-5312-4fca-b6bb-6f0f4c638d9b)
+![image](https://github.com/user-attachments/assets/5c4bf72a-b5b2-4795-b21f-c3e624246725)

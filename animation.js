@@ -5,7 +5,7 @@ const textElement = document.getElementById("text");
 const overlay = document.getElementById("overlay");
 const audio = document.getElementById("audio-player");
 
-// lyrics timing n stuff
+// lyrics timing and stuff
 const phrases = [
     "",
     "I've",
@@ -15,7 +15,7 @@ const phrases = [
     "I've been having trouble sleeping..."
 ];
 
-// these r in seconds btw
+// these are in seconds btw
 const delays = [1.66, 0.25, 0.7, 0.7, 0.6, 0.6];
 
 overlay.addEventListener("click", () => {
@@ -23,7 +23,7 @@ overlay.addEventListener("click", () => {
     audio.play();
 });
 
-// main animation thingy 
+// main animation fade in
 audio.addEventListener("play", () => {
     let i = 0;
     overlay.style.opacity = "1";

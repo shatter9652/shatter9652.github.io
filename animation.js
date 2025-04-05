@@ -9,14 +9,14 @@ const audio = document.getElementById("audio-player");
 const phrases = [
     "",
     "I've",
-    "I've been",
-    "I've been having",
-    "I've been having trouble",
-    "I've been having trouble sleeping..."
+    "I've been,",
+    "I've been, having",
+    "I've been, having trouble",
+    "I've been, having trouble sleeping..."
 ];
 
 // these are in seconds btw
-const delays = [1.66, 0.25, 0.7, 0.7, 0.6, 0.6];
+const delays = [1.66, 0.25, 0.8, 0.8, 0.6, 0.6];
 
 overlay.addEventListener("click", () => {
     textElement.textContent = "";

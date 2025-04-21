@@ -8,15 +8,15 @@ const audio = document.getElementById("audio-player");
 // lyrics timing and stuff
 const phrases = [
     "",
-    "I've",
-    "I've been,",
-    "I've been, having",
-    "I've been, having trouble",
-    "I've been, having trouble sleeping..."
+    "Do",
+    "Do you",
+    "Do you really",
+    "Do you really wanna die",
+    "Do you really wanna die like a virgin boy?"
 ];
 
 // these are in seconds btw
-const delays = [1.66, 0.25, 0.8, 0.8, 0.6, 0.6];
+const delays = [2.66, 0.25, 0.8, 0.8, 0.6, 0.6];
 
 overlay.addEventListener("click", () => {
     textElement.textContent = "";

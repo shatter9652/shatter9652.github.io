@@ -9,14 +9,14 @@ const audio = document.getElementById("audio-player");
 const phrases = [
     "",
     "Do",
-    "Do you",
     "Do you really",
-    "Do you really wanna die",
+    "Do you really wanna",
+    "Do you really wanna die like",
     "Do you really wanna die like a virgin boy?"
 ];
 
 // these are in seconds btw
-const delays = [2.66, 0.25, 0.8, 0.8, 0.6, 0.6];
+const delays = [2.66, 0.25, 0.25, 0.25, 0.25, 0.25];
 
 overlay.addEventListener("click", () => {
     textElement.textContent = "";

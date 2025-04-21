@@ -18,9 +18,13 @@ const songTitle = document.getElementById('song-title');
 // playlist, might add more later
 // (if you have any suggestions, please let me know!)
 const playlist = [
-    'music/Laufey - Trouble.mp3',
-    'music/Laufey - Silver Lining.mp3',
-    'music/Omori - Title.mp3'
+    'music/Rachie - Rabbit Hole.mp3',
+    'music/Aider - A Mothers Love Cover.mp3',
+    'music/toby fox - Last Goodbye.mp3',
+    'music/toby fox - His Theme.mp3',
+    'music/toby fox - Hopes And Dreams.mp3',
+    'music/toby fox - Memory.mp3',
+    'music/CHICKEN JOCKEY.mp3'
 ];
 
 let currentTrack = 0;

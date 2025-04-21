@@ -8,15 +8,31 @@ const audio = document.getElementById("audio-player");
 // lyrics timing and stuff
 const phrases = [
     "",
-    "Do",
-    "Do you really",
-    "Do you really wanna",
-    "Do you really wanna die like",
-    "Do you really wanna die like a virgin boy?"
+    "When",
+    "When the",
+    "When the light",
+    "When the light is",
+    "When the light is running",
+    "When the light is running low",
+    "And",
+    "And the",
+    "And the shadows",
+    "And the shadows start",
+    "And the shadows start to",
+    "And the shadows start to grow",
+    "And",
+    "And the",
+    "And the places",
+    "And the places that",
+    "And the places that you",
+    "And the places that you know",
+    "Seem",
+    "Seem like",
+    "Seem like fantasy"
 ];
 
 // these are in seconds btw
-const delays = [2.66, 0.25, 0.25, 0.25, 0.25, 0.25];
+const delays = [1.89, 0.65, 0.67, 0.50, 0.45, 0.65, 0.67, 0.65, 0.65, 0.65, 0.65, 0.50, 0.45, 0.45, 0.45, 0.45, 0.65, 0.65, 0.60, 0.50, 0.35, 1.00];
 
 overlay.addEventListener("click", () => {
     textElement.textContent = "";

@@ -26,8 +26,8 @@ const phrases = [
     "And the places that",
     "And the places that you",
     "And the places that you know",
-    "Seem",
-    "Seem like",
+    "❤️Seem",
+    "❤️Seem like",
     "❤️Seem like fantasy💙"
 ];
 

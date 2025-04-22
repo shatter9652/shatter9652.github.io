@@ -28,7 +28,7 @@ const phrases = [
     "And the places that you know",
     "Seem",
     "Seem like",
-    "Seem like fantasy"
+    "❤️Seem like fantasy💙"
 ];
 
 // these are in seconds btw

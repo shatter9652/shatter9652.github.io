@@ -7,32 +7,94 @@ const audio = document.getElementById("audio-player");
 
 // lyrics timing and stuff
 const phrases = [
+//1    
     "",
-    "When",
-    "When the",
-    "When the light",
-    "When the light is",
-    "When the light is running",
-    "When the light is running low",
-    "And",
-    "And the",
-    "And the shadows",
-    "And the shadows start",
-    "And the shadows start to",
-    "And the shadows start to grow",
-    "And",
-    "And the",
-    "And the places",
-    "And the places that",
-    "And the places that you",
-    "And the places that you know",
-    "❤️Seem",
-    "❤️Seem like",
-    "❤️Seem like fantasy💙"
+//2    
+    "IT STARTED ONCE UPON A TIME",
+//3    
+    "A LEGEND SPOKE IN SHADOWD RHYME",
+//4
+    "OF LIGHT AND DARK AND LOVE AND HATE",
+//5
+    "THE HOPES AND DREAMS THAT GOVERN FATE",
+//6
+    "THIS WAS THE LEGEND OF",
+//7
+    "<DELTARUNE.>",
+//8    
+    "A WORLD BASKED IN PUREST LIGHT.",
+//9    
+    "BENEATH IT, GREW ETERNAL NIGHT.",
+//10
+    "THE FOUNTAINS FREED,",
+//11    
+    "THE ROARING CRIES.",
+//12    
+    "THE TITANS SHAPE",
+//13    
+    "FROM DARKENED EYES.",
+//14    
+    "THE LIGHT AND DARK,",
+//15    
+    "BOTH BURNING DIRE.",
+//16    
+    "A COUNTDOWN TO",
+//17    
+    "THE EARTH'S EXPIRE.",
+//18    
+    "BUT LO, ON HOPES AND DREAMS THEY SEND.",
+//19    
+    "THREE HEROES AT THE WORLD'S END.",
+//20    
+    "THE GIRL,",
+//21    
+    "WITH HOPE CROSSED ON HER HEART.",
+//22    
+    "THE PRINCE,",
+//23    
+    "ALONE IN DEEPEST DARK.",
+//24    
+    "THE CAGE,",
+//25    
+    "WITH HUMAN SOUL AND PARTS!",
+//26    
+    "THEY'LL HEAR THE RING OF HEAVEN'S CALL.",
+//27    
+    "THEY'LL SEE THE TAIL OF HELL TAKE CRAWL.",
+//28    
+    "THE KNIGHT WHICH MAKES",
+//29    
+    "WITH BLACKENED KNIFE.",
+//30    
+    "SHALL DUEL WITH HEROES",
+//31    
+    "STRIFE BY STRIFE.",
+//32    
+    "THE QUEEN'S CHARIOT",
+//33    
+    "CANNOT BE STOPPED.",
+//34    
+    "THE LORD OF SCREENS",
+//35    
+    "CLEAVED RED BY BLADE.",
+//36    
+    "THE FLOWER MAN,",
+//37    
+    "TRAPPED IN ASYLUM.",
+//38    
+    "THE ANGEL, BANISHED, WILL",
+//39    
+    "FINALLY MEET WITH ITS DESIRE.",
+//40    
+    "AND THEN. WHEN ALL HOPE",
+//41    
+    "IS LOST FOR THE TALE",
+//
+    "THE KNIGHT WHICH MAKES",
 ];
 
 // these are in seconds btw
-const delays = [1.89, 0.65, 0.67, 0.50, 0.45, 0.65, 0.67, 0.55, 0.55, 0.55, 0.55, 0.56, 0.45, 0.45, 0.45, 0.45, 0.65, 0.65, 0.60, 0.65, 0.35, 1.65];
+const delays = [3.35, 3.35, 3.35, 3.35, 0.45, 0.65, 0.67, 0.55, 0.55, 0.55, 0.55, 0.56, 0.45, 0.45, 0.45, 0.45, 0.65, 0.65, 0.60, 0.65, 0.35, 1.65];
 
 overlay.addEventListener("click", () => {
     textElement.textContent = "";
